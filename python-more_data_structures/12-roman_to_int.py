@@ -14,7 +14,7 @@ def roman_to_int(roman_string):
                     "M": 1000,
                  }
     total = 0
-    
+
     prev_val = 0
     for symbol in roman_string:
         value = roman_dict[symbol]
